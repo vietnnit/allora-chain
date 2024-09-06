@@ -7,7 +7,7 @@ APP_NAME="allorad"
 VERSION=${1:-"v0.2.8"}
 
 # Define the base URL using the specified or default version
-BASE_URL="https://github.com/allora-network/allora-chain/releases/download/$VERSION"
+BASE_URL="https://github.com/allora-network/allora-chain/releases/download/latest/allorad_linux_amd64"
 
 # Determine the operating system and architecture
 OS=$(uname -s | tr '[:upper:]' '[:lower:]')
